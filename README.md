@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+### Abstract
+Vision-based mobile robot navigation is a vibrant area of research with numerous algorithms developed, with a vast majority of which either belong to the scene-oriented simultaneous localization and mapping (SLAM) or fall into the category of robot-oriented lane-detection/trajectory tracking. These methods suffer from high computational cost and require stringent labelling and calibration efforts. To address these challenges, this paper proposes a lightweight robot navigation framework based purely on uncalibrated spherical images. To simplify the orientation estimation, path prediction and improve computational efficiency, the navigation problem is decomposed into a series of classification tasks. To mitigate the adverse effects of insufficient negative samples in the ``navigation via classification'' task, we introduce the spherical camera for scene capturing, which enables $360^\circ$ fisheye panorama as training samples and generation of sufficient positive and negative heading directions. The classification is implemented as an end-to-end Convolutional Neural Network (CNN), trained on our proposed Spherical-Navi image dataset, whose category labels can be efficiently collected. This CNN is capable of predicting potential path directions with high confidence levels based on single, uncalibrated spherical image. Experimental results demonstrate that the proposed framework outperforms competing ones in realistic applications.
 
-You can use the [editor on GitHub](https://github.com/hijeffery/PanoNavi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Model
+![Image](network.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Data
+Dataset can be downloaded [here](http://pan.baidu.com/s/1jILuDng), or [here](http://dwz.cn/61ckOmhttp://dwz.cn/61ckOm). Total in size = 7.43G. 
+Data was caputred 29frames/s, and sampled 30 frames/s. Thus, 1 image ~= 1s. 
+Demo video 15fps, ~= 15x faster than the original video.
 
-### Markdown
+### Performance
+[Here](https://www.youtube.com/watch?v=Z6GgbcZRwsM) is a demo video for navigation within campus.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hijeffery/PanoNavi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Reference
+1. Ran, L.; Zhang, Y.; Yang, T.; Zhang, P. Autonomous Wheeled Robot Navigation with Uncalibrated Spherical Images. Chinese Conference on Intelligent Visual Surveillance. Springer, Singapore, 2016, pp. 47–55.
+2. Giusti, A.; Guzzi, J.; Ciresan, D.; He, F.L.; Rodriguez, J.P.; Fontana, F.; Faessler, M.; Forster, C.; Schmidhuber, J.; Di Caro, G.; Scaramuzza, D.; Gambardella, L. A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots. IEEE Robotics and Automation Letters 2016. 
