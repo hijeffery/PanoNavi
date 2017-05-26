@@ -3,11 +3,14 @@ Vision-based mobile robot navigation is a vibrant area of research with numerous
 
 ### Model
 ![Image](network.png)
+Proposed convolutional neural network based navigation framework. It consists of four convolutional layers, three pooling layers, and two fully connected layers. The inputs are raw, uncalibrated spherical images and the outputs are navigation signals (steering direction and angles).
 
 ### Data
-Dataset can be downloaded [here](http://pan.baidu.com/s/1jILuDng), or [here](http://dwz.cn/61ckOmhttp://dwz.cn/61ckOm). Total in size = 7.43G. 
+Dataset can be downloaded [here](http://pan.baidu.com/s/1jILuDng), or [here](http://dwz.cn/61ckOm). Total in size = 7.43G. 
 Data was caputred 29frames/s, and sampled 30 frames/s. Thus, 1 image ~= 1s. 
-Demo video 15fps, ~= 15x faster than the original video.
+Demo video is made with 15fps, ~= 15x faster than the original video.
+
+For data argumentation and labelling, please check Section 4.4 in our paper. 
 
 ### Performance
 [Here](https://www.youtube.com/watch?v=Z6GgbcZRwsM) is a demo video for navigation within campus.
