@@ -19,7 +19,8 @@ For more information about the formatted images and labels, please contact us at
 Demo video is made with 15fps, ~= 15x faster than the original video.
 
 ### To cite the work, please kindly use:
-> @article{ran2017convolutional,
+```
+@article{ran2017convolutional,
   title={Convolutional Neural Network-Based Robot Navigation Using Uncalibrated Spherical Images},
   author={Ran, Lingyan and Zhang, Yanning and Zhang, Qilin and Yang, Tao},
   journal={Sensors},
@@ -29,6 +30,8 @@ Demo video is made with 15fps, ~= 15x faster than the original video.
   year={2017},
   publisher={Multidisciplinary Digital Publishing Institute}
 }
+```
+
 ### Reference
 1. Ran, L.; Zhang, Y.; Yang, T.; Zhang, P. Autonomous Wheeled Robot Navigation with Uncalibrated Spherical Images. Chinese Conference on Intelligent Visual Surveillance. Springer, Singapore, 2016, pp. 47–55.
 2. Giusti, A.; Guzzi, J.; Ciresan, D.; He, F.L.; Rodriguez, J.P.; Fontana, F.; Faessler, M.; Forster, C.; Schmidhuber, J.; Di Caro, G.; Scaramuzza, D.; Gambardella, L. A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots. IEEE Robotics and Automation Letters 2016. 
