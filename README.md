@@ -15,7 +15,7 @@ For data argumentation and labelling, please check Section 4.4 in our paper.
 For more information about the formatted images and labels, please contact us at ![gmail](gmail.png) 
 
 ### Code
-Source code avaliable: [navi.zip](https://github.com/hijeffery/PanoNavi/navi.zip)
+Source code avaliable: [navi.zip](https://github.com/hijeffery/PanoNavi/blob/master/navi.zip)
 
 ### Performance
 [![Video](frontpage.png)](https://youtu.be/4ZjnVOa8cKA) [Demo](https://youtu.be/4ZjnVOa8cKA) video for navigation within campus.
