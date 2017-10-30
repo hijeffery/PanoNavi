@@ -15,13 +15,8 @@ For data argumentation and labelling, please check Section 4.4 in our paper.
 For more information about the formatted images and labels, please contact us at ![gmail](gmail.png) 
 
 ### Code
-Source code avaliable: [navi.zip](https://github.com/hijeffery/PanoNavi/blob/master/navi.zip)
-
-### Performance
-[![Video](frontpage.png)](https://youtu.be/4ZjnVOa8cKA) [Demo](https://youtu.be/4ZjnVOa8cKA) video for navigation within campus.
-Demo video is made with 15fps, ~= 15x faster than the original video.
-
-### To cite the work, please kindly use:
+Source code avaliable: [navi.zip](https://github.com/hijeffery/PanoNavi/blob/master/navi.zip).
+If you find the work helpful, please kindly consider to cite our paper by:
 ```
 @article{ran2017convolutional,
   title={Convolutional Neural Network-Based Robot Navigation Using Uncalibrated Spherical Images},
@@ -34,6 +29,10 @@ Demo video is made with 15fps, ~= 15x faster than the original video.
   publisher={Multidisciplinary Digital Publishing Institute}
 }
 ```
+
+### Performance
+[![Video](frontpage.png)](https://youtu.be/4ZjnVOa8cKA) [Demo](https://youtu.be/4ZjnVOa8cKA) video for navigation within campus.
+Demo video is made with 15fps, ~= 15x faster than the original video.
 
 ### Reference
 1. Ran, L.; Zhang, Y.; Yang, T.; Zhang, P. Autonomous Wheeled Robot Navigation with Uncalibrated Spherical Images. Chinese Conference on Intelligent Visual Surveillance. Springer, Singapore, 2016, pp. 47–55.
